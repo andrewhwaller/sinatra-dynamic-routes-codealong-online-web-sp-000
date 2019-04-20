@@ -23,6 +23,5 @@ class App < Sinatra::Base
     @num1 = params[:num1]
     @num2 = params[:num2]
     "Here's your answer: #{()@num1 * @num2).to_s}"
-    end
   end
 end
